@@ -146,7 +146,7 @@ class _HistoryMetricsPageState extends State<HistoryMetricsPage> {
                           child: ListTile(
                             leading: CircleAvatar(
                               backgroundColor: item.fastingHours >= 12
-                                  ? MambaTheme.neonGreen.withOpacity(0.2)
+                                  ? MambaTheme.neonGreen.withValues(alpha: 0.2)
                                   : MambaTheme.cardSurface,
                               child: Icon(
                                 Icons.calendar_today,

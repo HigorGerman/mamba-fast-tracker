@@ -105,12 +105,12 @@ class MealsPage extends StatelessWidget {
                     padding: const EdgeInsets.all(32),
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: MambaTheme.cardSurface.withOpacity(0.5),
+                      color: MambaTheme.cardSurface.withValues(alpha: 0.5),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Column(
                       children: [
-                        Icon(Icons.no_meals, color: MambaTheme.textMuted.withOpacity(0.5), size: 48),
+                        Icon(Icons.no_meals, color: MambaTheme.textMuted.withValues(alpha: 0.5), size: 48),
                         const SizedBox(height: 12),
                         const Text(
                           'Nenhuma refeição registrada hoje',
@@ -256,7 +256,7 @@ class _DateNavigator extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                   decoration: BoxDecoration(
-                    color: MambaTheme.neonGreen.withOpacity(0.2),
+                    color: MambaTheme.neonGreen.withValues(alpha: 0.2),
                     borderRadius: BorderRadius.circular(6),
                   ),
                   child: const Text(
@@ -308,7 +308,7 @@ class _CalorieSummaryCard extends StatelessWidget {
         color: MambaTheme.cardSurface,
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
-          color: MambaTheme.neonGreen.withOpacity(0.3),
+          color: MambaTheme.neonGreen.withValues(alpha: 0.3),
           width: 1,
         ),
       ),
@@ -420,7 +420,7 @@ class _MealCardTile extends StatelessWidget {
         leading: Container(
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: MambaTheme.neonGreen.withOpacity(0.15),
+            color: MambaTheme.neonGreen.withValues(alpha: 0.15),
             shape: BoxShape.circle,
           ),
           child: const Icon(Icons.fastfood, color: MambaTheme.neonGreen, size: 20),

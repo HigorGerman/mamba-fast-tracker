@@ -63,12 +63,12 @@ class _LoginPageState extends State<LoginPage> {
                       Container(
                         padding: const EdgeInsets.all(20),
                         decoration: BoxDecoration(
-                          color: MambaTheme.neonGold.withOpacity(0.15),
+                          color: MambaTheme.neonGold.withValues(alpha: 0.15),
                           shape: BoxShape.circle,
                           border: Border.all(color: MambaTheme.neonGold, width: 2),
                           boxShadow: [
                             BoxShadow(
-                              color: MambaTheme.neonGold.withOpacity(0.3),
+                              color: MambaTheme.neonGold.withValues(alpha: 0.3),
                               blurRadius: 20,
                               spreadRadius: 2,
                             ),

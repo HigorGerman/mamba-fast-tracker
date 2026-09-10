@@ -46,9 +46,9 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                   decoration: BoxDecoration(
-                    color: MambaTheme.cardSurface.withOpacity(0.9),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: MambaTheme.alertRed.withOpacity(0.4)),
+                    color: MambaTheme.cardSurface.withValues(alpha: 0.9),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(color: MambaTheme.alertRed.withValues(alpha: 0.4)),
                   ),
                   child: const Row(
                     mainAxisSize: MainAxisSize.min,
